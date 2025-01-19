@@ -1,0 +1,96 @@
+{
+    "name": "DevOps Roadmap",
+    "category": "devops",
+    "steps": {
+      "1": {
+        "name": "Operating Systems and Terminal Knowledge",
+        "desc": "Master the command line interface to control computers directly, enabling powerful system management and automation.",
+        "labs": [
+          {
+            "$oid": "67315649580b9cb5aa043e11"
+          },
+          {
+            "$oid": "673156b0580b9cb5aa043e1e"
+          },
+          {
+            "$oid": "673156fa580b9cb5aa043e2a"
+          },
+          {
+            "$oid": "6731577e580b9cb5aa043e35"
+          },
+          {
+            "$oid": "67315817580b9cb5aa043e3f"
+          },
+          {
+            "$oid": "6731586a580b9cb5aa043e48"
+          },
+          {
+            "$oid": "67315b00580b9cb5aa043e55"
+          },
+          {
+            "$oid": "673efb14d41b158f7cbb8276"
+          },
+          {
+            "$oid": "673efbadd41b158f7cbb8282"
+          },
+          {
+            "$oid": "673f24a6d41b158f7cbb828d"
+          },
+          {
+            "$oid": "673fc49699740c7a0f5ae8c8"
+          }
+        ]
+      },
+      "2": {
+        "name": "Learn Programming and Scripting",
+        "desc": "Learn to write code that automates repetitive tasks and solves complex problems efficiently.",
+        "labs": []
+      },
+      "3": {
+        "name": "Version Control Systems (Git)",
+        "desc": "Track and manage code changes over time, enabling seamless collaboration and maintaining project history.",
+        "labs": [
+          {
+            "$oid": "67311aa0580b9cb5aa043dba"
+          },
+          {
+            "$oid": "6777afac927ee06668bddc9a"
+          },
+          {
+            "$oid": "677b8d56927ee06668bddca0"
+          },
+          {
+            "$oid": "677e0d6e927ee06668bddca9"
+          },
+          {
+            "$oid": "677e1303927ee06668bddcac"
+          }
+        ]
+      },
+      "4": {
+        "name": "CI/CD Tools",
+        "desc": "Automate the process of testing and deploying code, ensuring consistent and reliable software delivery.",
+        "labs": []
+      },
+      "5": {
+        "name": "Infrastructure as Code (IaC)",
+        "desc": "Define and manage infrastructure using code, making system setup repeatable and scalable.",
+        "labs": []
+      },
+      "6": {
+        "name": "Cloud Providers",
+        "desc": "Learn to use cloud platforms to deploy and scale applications without managing physical servers.",
+        "labs": []
+      },
+      "7": {
+        "name": "Containerization",
+        "desc": "Package applications with all their dependencies to ensure they run consistently across different systems.",
+        "labs": []
+      },
+      "8": {
+        "name": "Monitoring and Logging",
+        "desc": "Track system performance and collect data to identify and fix issues before they become problems.",
+        "labs": []
+      }
+    }
+  }
