@@ -1,96 +1,189 @@
 {
-    "name": "DevOps Roadmap",
-    "category": "devops",
-    "steps": {
-      "1": {
-        "name": "Operating Systems and Terminal Knowledge",
-        "desc": "Master the command line interface to control computers directly, enabling powerful system management and automation.",
-        "labs": [
-          {
-            "$oid": "67315649580b9cb5aa043e11"
-          },
-          {
-            "$oid": "673156b0580b9cb5aa043e1e"
-          },
-          {
-            "$oid": "673156fa580b9cb5aa043e2a"
-          },
-          {
-            "$oid": "6731577e580b9cb5aa043e35"
-          },
-          {
-            "$oid": "67315817580b9cb5aa043e3f"
-          },
-          {
-            "$oid": "6731586a580b9cb5aa043e48"
-          },
-          {
-            "$oid": "67315b00580b9cb5aa043e55"
-          },
-          {
-            "$oid": "673efb14d41b158f7cbb8276"
-          },
-          {
-            "$oid": "673efbadd41b158f7cbb8282"
-          },
-          {
-            "$oid": "673f24a6d41b158f7cbb828d"
-          },
-          {
-            "$oid": "673fc49699740c7a0f5ae8c8"
-          }
-        ]
-      },
-      "2": {
-        "name": "Learn Programming and Scripting",
-        "desc": "Learn to write code that automates repetitive tasks and solves complex problems efficiently.",
-        "labs": []
-      },
-      "3": {
-        "name": "Version Control Systems (Git)",
-        "desc": "Track and manage code changes over time, enabling seamless collaboration and maintaining project history.",
-        "labs": [
-          {
-            "$oid": "67311aa0580b9cb5aa043dba"
-          },
-          {
-            "$oid": "6777afac927ee06668bddc9a"
-          },
-          {
-            "$oid": "677b8d56927ee06668bddca0"
-          },
-          {
-            "$oid": "677e0d6e927ee06668bddca9"
-          },
-          {
-            "$oid": "677e1303927ee06668bddcac"
-          }
-        ]
-      },
-      "4": {
-        "name": "CI/CD Tools",
-        "desc": "Automate the process of testing and deploying code, ensuring consistent and reliable software delivery.",
-        "labs": []
-      },
-      "5": {
-        "name": "Infrastructure as Code (IaC)",
-        "desc": "Define and manage infrastructure using code, making system setup repeatable and scalable.",
-        "labs": []
-      },
-      "6": {
-        "name": "Cloud Providers",
-        "desc": "Learn to use cloud platforms to deploy and scale applications without managing physical servers.",
-        "labs": []
-      },
-      "7": {
-        "name": "Containerization",
-        "desc": "Package applications with all their dependencies to ensure they run consistently across different systems.",
-        "labs": []
-      },
-      "8": {
-        "name": "Monitoring and Logging",
-        "desc": "Track system performance and collect data to identify and fix issues before they become problems.",
-        "labs": []
-      }
+  "_id": {
+    "$oid": "677f1f65526bd5b2060e7d50"
+  },
+  "name": "DevOps Roadmap",
+  "steps": {
+    "1": {
+      "name": "Operating Systems and Terminal Knowledge",
+      "desc": "Build a strong foundation in Linux fundamentals and command-line operations. Master essential skills for server management, task automation, and system administration.",
+      "labs": [
+        {
+          "$oid": "67315649580b9cb5aa043e11"
+        },
+        {
+          "$oid": "673156b0580b9cb5aa043e1e"
+        },
+        {
+          "$oid": "673156fa580b9cb5aa043e2a"
+        },
+        {
+          "$oid": "6731577e580b9cb5aa043e35"
+        },
+        {
+          "$oid": "67315817580b9cb5aa043e3f"
+        },
+        {
+          "$oid": "6731586a580b9cb5aa043e48"
+        },
+        {
+          "$oid": "67315b00580b9cb5aa043e55"
+        },
+        {
+          "$oid": "673efb14d41b158f7cbb8276"
+        },
+        {
+          "$oid": "673efbadd41b158f7cbb8282"
+        },
+        {
+          "$oid": "673f24a6d41b158f7cbb828d"
+        },
+        {
+          "$oid": "673fc49699740c7a0f5ae8c8"
+        }
+      ]
+    },
+    "2": {
+      "name": "Learn Programming and Scripting",
+      "desc": "Master fundamental programming concepts with focus on automation and scripting for DevOps workflows.",
+      "labs": [
+        {
+          "$oid": "672b91f95f8e13bc290b78fc"
+        },
+        {
+          "$oid": "672b93365f8e13bc290b7906"
+        },
+        {
+          "$oid": "672e59d55f8e13bc290b793e"
+        },
+        {
+          "$oid": "67182749c06f6b1d6d4df39e"
+        },
+        {
+          "$oid": "672a09ef5f8e13bc290b78dc"
+        },
+        {
+          "$oid": "673e177dd41b158f7cbb8242"
+        },
+        {
+          "$oid": "673e1998d41b158f7cbb824c"
+        },
+        {
+          "$oid": "673e2199d41b158f7cbb8255"
+        }
+      ]
+    },
+    "3": {
+      "name": "Version Control Systems (Git)",
+      "desc": "Learn to track code changes, manage branches, and collaborate effectively in team environments using version control.",
+      "labs": [
+        {
+          "$oid": "67311aa0580b9cb5aa043dba"
+        },
+        {
+          "$oid": "6777afac927ee06668bddc9a"
+        },
+        {
+          "$oid": "677b8d56927ee06668bddca0"
+        },
+        {
+          "$oid": "677e0d6e927ee06668bddca9"
+        },
+        {
+          "$oid": "677e1303927ee06668bddcac"
+        }
+      ]
+    },
+    "4": {
+      "name": "CI/CD Tools",
+      "desc": "Implement automated pipelines for testing, building, and deploying applications to ensure rapid and reliable software delivery.",
+      "labs": []
+    },
+    "5": {
+      "name": "Infrastructure as Code (IaC)",
+      "desc": "Learn to provision and manage cloud infrastructure through code for consistent and repeatable deployments.",
+      "labs": []
+    },
+    "6": {
+      "name": "Cloud Providers",
+      "desc": "Gain foundational knowledge in cloud computing, focusing on core services for deploying and scaling applications.",
+      "labs": []
+    },
+    "7": {
+      "name": "Containerization and Orchestration",
+      "desc": "Master container technologies to package and run applications consistently across different environments.",
+      "labs": [
+        {
+          "$oid": "672f60625f8e13bc290b7966"
+        },
+        {
+          "$oid": "672d233e5f8e13bc290b7922"
+        },
+        {
+          "$oid": "67311c6e580b9cb5aa043dc9"
+        },
+        {
+          "$oid": "6731551d580b9cb5aa043e07"
+        },
+        {
+          "$oid": "67352ccc580b9cb5aa043e62"
+        },
+        {
+          "$oid": "6735379c580b9cb5aa043e6d"
+        },
+        {
+          "$oid": "67353907580b9cb5aa043e7a"
+        },
+        {
+          "$oid": "67353ccc580b9cb5aa043e9e"
+        },
+        {
+          "$oid": "6735b9a4d41b158f7cbb8100"
+        },
+        {
+          "$oid": "6735bdb3d41b158f7cbb8115"
+        },
+        {
+          "$oid": "67362bbdd41b158f7cbb811f"
+        },
+        {
+          "$oid": "67363635d41b158f7cbb8135"
+        },
+        {
+          "$oid": "67363a50d41b158f7cbb814c"
+        },
+        {
+          "$oid": "67363ca2d41b158f7cbb8164"
+        },
+        {
+          "$oid": "67364019d41b158f7cbb8187"
+        },
+        {
+          "$oid": "67365f1fd41b158f7cbb8192"
+        },
+        {
+          "$oid": "67366190d41b158f7cbb819d"
+        },
+        {
+          "$oid": "67366466d41b158f7cbb81aa"
+        },
+        {
+          "$oid": "672fb1365f8e13bc290b796f"
+        }
+      ]
+    },
+    "8": {
+      "name": "Monitoring and Logging",
+      "desc": "Set up comprehensive system monitoring and logging to maintain system health and troubleshoot issues effectively.",
+      "labs": [
+        {
+          "$oid": "672a86bf5f8e13bc290b78f2"
+        },
+        {
+          "$oid": "672f598b5f8e13bc290b7947"
+        }
+      ]
     }
-  }
+  },
+  "category": "devops"
+}
