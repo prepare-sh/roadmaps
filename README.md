@@ -4,27 +4,27 @@ Welcome to the prepare.sh roadmaps repository! This is where we maintain our lea
 
 ## About the Roadmaps
 
-Our roadmaps are available at `prepare.sh/roadmap/<category>` and are designed to provide clear, structured learning paths for different technical domains. Each roadmap breaks down complex subjects into manageable steps with associated hands-on labs.
+Our roadmaps are available at `prepare.sh/roadmap/<category>` and are designed to provide clear, structured learning paths for different technical domains. Each roadmap breaks down complex subjects into manageable steps and tries to associated them with hands-on courses.
 
 ## Structure
 
 Each roadmap consists of sequential steps, where each step:
 - Has a clear name and description
-- Contains a list of associated labs
+- Contains a list of associated courses
 - Focuses on specific learning outcomes
 
-## Labs
+## Courses
 
-Labs are identified by unique IDs in the format:
+Courses are identified by name in the Labs field in the format:
 ```json
-{
-  "$oid": "673156fa580b9cb5aa043e2a"
-}
+["Course name", "Course 2 name"..]
 ```
 
-### Creating Labs
+If we have relevant courses on the website matching this course we will link a URL to it, otherwise it will be a placeholder
 
-Want to contribute by creating labs? Here's how:
+### Creating Labs/Courses
+
+If you want to contribute by creating labs/courses to make sure your entry leads to a learning material Here's how:
 
 1. Sign in to [prepare.sh](https://prepare.sh)
 2. Navigate to the lab creation page at `https://prepare.sh/createdlabs`
@@ -34,8 +34,8 @@ Want to contribute by creating labs? Here's how:
 ## Contributing
 
 Your contributions help make technology education more accessible! Whether you're:
+- Suggesting improvements to existing roadmaps (Forking and submitting PR, Creating issues)
 - Creating new labs
-- Suggesting improvements to existing roadmaps
 - Proposing new roadmap categories
 
 Every contribution makes a difference in someone's learning journey.
